@@ -41,6 +41,13 @@ function Home() {
       <br />
       <br />
       <NavLink to="/page5">Go to Page 5</NavLink>
+      <br />
+      <br />
+      <NavLink to={`/page6/${id}`} state={{ data: "Roshan" }}>
+        Go to Page 6
+      </NavLink>
+      <br />
+      <br />
     </div>
   );
 }
